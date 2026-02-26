@@ -1,0 +1,75 @@
+Open a file
+vi filename
+
+If file does not exist → it will be created.
+
+Modes in VI editor
+
+VI editor has 3 modes:
+
+Mode	Purpose
+Normal mode	navigation & commands (default)
+Insert mode	typing/editing text
+Command mode	save, quit operations
+
+Enter insert mode:
+
+i
+
+Exit insert mode:
+
+Esc
+Insert / Write text
+
+Press:
+
+i
+
+Start typing.
+
+Save and Quit
+Command	Meaning
+:w	save file
+:q	quit
+:wq	save and quit
+:q!	quit without saving
+
+(Press Esc before typing :)
+
+Delete operations
+Command	Action
+x	delete single character
+dd	delete entire line
+D	delete from cursor to end of line
+Copy & Paste
+Command	Action
+yy	copy (yank) current line
+p	paste below cursor
+P	paste above cursor
+Navigation (Scrolling)
+Command	Action
+Ctrl + u	scroll up
+Ctrl + d	scroll down
+gg	go to first line
+G	go to last line
+Move Cursor
+Key	Move
+h	left
+l	right
+k	up
+j	down
+Search inside file
+/word
+
+Press n → next match
+Press N → previous match
+
+Undo / Redo
+Command	Action
+u	undo
+Ctrl + r	redo
+Important Tip
+
+Always remember:
+
+Press Esc before giving any : command (save/quit), otherwise it will not work.
